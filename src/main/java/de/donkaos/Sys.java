@@ -5,12 +5,10 @@
 
 package de.donkaos;
 
-import de.donkaos.Exception.OSNotFoundException;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Sys {     // TODO GetOS()
+public class Sys {
     public static class wait extends Wait{}
     private static String prefix = "SYS";
     private static boolean colorsEnabled = true;
@@ -27,28 +25,12 @@ public class Sys {     // TODO GetOS()
     public static void useColors(boolean colorsEnabled){
         Sys.colorsEnabled = colorsEnabled;
     }
-    public static void useWebsocket(boolean websockets){
-        WS.websocket = websockets;
-    }
     public static void setPrefix(String prefix){
         Sys.prefix = prefix;
     }
     public static String getPrefix() {
         return "[" + prefix + "]";
     }
-
-    /*public static OS getOS() throws OSNotFoundException {
-        String os = System.getProperty("os.name");
-        System.out.println("Using System Property: " + os);
-        switch (os){
-            case "Windows 10":
-                return OS.Windows_10;
-            case "Windows 11":
-                return OS.Windows_11;
-            default:
-                throw new OSNotFoundException(os);
-        }
-    }*/
 
     private static String getTimeStamp(){
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
