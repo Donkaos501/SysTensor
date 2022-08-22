@@ -1,4 +1,4 @@
-# __SysTensor__
+# __SysTensor__  [![](https://jitpack.io/v/Donkaos501/SysTensor.svg)](https://jitpack.io/#Donkaos501/SysTensor)
 
 SysTensor is an opensource maven dependency that helps you in your projects with logging and debugging.
 
@@ -21,7 +21,7 @@ SysTensor is an opensource maven dependency that helps you in your projects with
         </dependency>
     </dependencies>
 ```
-
+Last Version [here](https://jitpack.io/#Donkaos501/SysTensor)
 
 
 # Features
