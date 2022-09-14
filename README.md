@@ -14,11 +14,11 @@ Maven:
 ```
 ``` xml
     <dependencies>
-        <dependency>
-            <groupId>com.github.Donkaos501</groupId>
-            <artifactId>de.donkaos.SysTensor</artifactId>
-            <version>Tag</version>
-        </dependency>
+	<dependency>
+	    <groupId>com.github.Donkaos501</groupId>
+	    <artifactId>SysTensor</artifactId>
+	    <version>Tag</version>
+	</dependency>
     </dependencies>
 ```
 Gradle
