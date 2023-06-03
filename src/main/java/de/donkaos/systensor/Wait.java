@@ -1,9 +1,5 @@
-/*
- * Copyright (c) 2022.
- * This code was written by Donkaos
- */
 
-package de.donkaos;
+package de.donkaos.systensor;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +8,7 @@ public class Wait {
 
     public static void nanoSec(int s){
         try {
-            TimeUnit.MILLISECONDS.sleep(s);
+            TimeUnit.NANOSECONDS.sleep(s);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -49,6 +45,4 @@ public class Wait {
             e.printStackTrace();
         }
     }
-
-
 }
