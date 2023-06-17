@@ -142,6 +142,11 @@ public class Config {
     }
 
 
+    public String getConfigName(){
+        return file.getName();
+    }
+
+
     /**
      * Sets an existing value
      * */
