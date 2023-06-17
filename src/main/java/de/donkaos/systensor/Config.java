@@ -206,7 +206,7 @@ public class Config {
 
 
     public String getAbsolutPath() {
-        return absolutFile.toString();
+        return absolutFile.getPath();
     }
 
     private void test(){
