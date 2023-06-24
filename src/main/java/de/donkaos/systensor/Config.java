@@ -142,6 +142,11 @@ public class Config {
     }
 
 
+    public String getConfigName(){
+        return file.getName();
+    }
+
+
     /**
      * Sets an existing value
      * */
@@ -201,7 +206,7 @@ public class Config {
 
 
     public String getAbsolutPath() {
-        return absolutFile.toString();
+        return absolutFile.getPath();
     }
 
     private void test(){
