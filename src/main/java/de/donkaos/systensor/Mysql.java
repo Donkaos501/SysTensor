@@ -1,8 +1,9 @@
 package de.donkaos.systensor;
 
 import java.sql.*;
-import java.util.*;
-import java.util.concurrent.TimeUnit;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 public class Mysql {
 
@@ -105,7 +106,7 @@ public class Mysql {
             System.out.println("Error table not found!");
             return;
         }
-        String query = "DELETE FROM " + tableID + " WHERE uuid = ?";
+        String query = String.format("DELETE FROM %s WHERE uuid = ?", tableID);
         try {
             PreparedStatement statement = connection.prepareStatement(query);
             statement.setString(1, uuid.toString());
