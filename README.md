@@ -1,45 +1,27 @@
-# __SysTensor__  [![](https://jitpack.io/v/Donkaos501/SysTensor.svg)](https://jitpack.io/#Donkaos501/SysTensor)
+# __SysTensor__   
+![Jenkins](https://img.shields.io/jenkins/build?jobUrl=https%3A%2F%2Fjenkins.rgb-cloud.net%2Fjob%2FSysTensor%2F&style=flat-square)
 
 SysTensor is an opensource Java dependency that helps you in your projects with logging and debugging.
 
-# Install
+## Install
 Maven:
 ``` xml
     <repositories>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>SysTensor</id>
+            <url>https://repo.rgb-cloud.net/repository/SysTensor/</url>
         </repository>
     </repositories>
 ```
 ``` xml
     <dependencies>
-	<dependency>
-	    <groupId>com.github.Donkaos501</groupId>
-	    <artifactId>SysTensor</artifactId>
-	    <version>Tag</version>
-	</dependency>
+        <dependency>
+            <groupId>de.donkaos</groupId>
+            <artifactId>SysTensor</artifactId>
+            <version>1.3.1</version>
+        </dependency>
     </dependencies>
 ```
-Gradle
-``` 
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```
-``` 
-	dependencies {
-	        implementation 'com.github.Donkaos501:SysTensor:Tag'
-	}
-```
-
-Last Version [here](https://jitpack.io/#Donkaos501/SysTensor)
-
-
-
 # Features
 - [Logging](#Logging)
 - [Debugging](#Debugging)
