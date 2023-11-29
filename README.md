@@ -18,7 +18,7 @@ Maven:
         <dependency>
             <groupId>de.donkaos</groupId>
             <artifactId>SysTensor</artifactId>
-            <version>1.3.1</version>
+            <version>1.3.3</version>
         </dependency>
     </dependencies>
 ```
